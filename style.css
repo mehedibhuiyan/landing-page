@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 120rem;
+  height: 100vh;
+}
+
+.A{
+  height: 60%;
+  background-color: #ddd;
+}
+ul{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+ul li{
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 0.7rem;
+}
+
+.top{
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  /* padding: 1rem; */
+}
+
+.heading{
+  padding: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.para{
+  padding: 0.5rem;
+  letter-spacing: 1.2px;
+  color: #0d2d2b;
+}
+.btn{
+  align-self: flex-start;
+  padding: 1.2rem 1.5rem;
+  margin-top: 1.5rem;
+  background-color:#1990bf;
+  border: none;
+  cursor: pointer;
+  color: azure;
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+}
+.B{
+  height: 40%;
+  background-color: #0d0d2b;
+  color:#fff;
+}
+.bottom{
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.headingbottom{
+  width:  90%;
+  padding: 0.8rem;
+  font-size: 2.5rem;
+}
+
+.parabottom{
+  width: 90%;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.inputbottom{
+  position: relative;
+  left: 50%;
+  /* top: 50%; */
+  transform: translateX(-50%);
+}
+
+input{
+  padding: 1rem;
+  border-radius: 0.3rem;
+  border: none;
+  width: 60%;
+}
+
+.btnbottom{
+  padding: 1rem 1.5rem;
+  border-radius:0.3rem ;
+  border: none;
+  background-color: #1990bf;
+  color: #fff;
+  
+}
+.footer{
+  padding: 1rem;
+}
